@@ -1,0 +1,24 @@
+header{
+   background: #F2CEDA;
+
+}
+
+.logo{
+    margin-left: 245px;
+}
+
+
+.navigation li{
+list-style: none;
+display: inline-block;
+}
+.button{
+    height: 49px;
+width: 165px;
+border-radius: 5px;
+  background: #D23166;
+}
+
+.free{
+display: inline-block;
+}

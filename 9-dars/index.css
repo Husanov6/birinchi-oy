@@ -1,0 +1,98 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 500px;
+    height: 650px;
+    background-color: whitesmoke;
+}
+
+.main__ticket{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 39px;   
+    color: #181A3F;
+}
+
+.main__paragrif{
+    text-align: center;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555671;
+}
+
+.main__name{
+    padding: 5px 0 5px 10px;
+    width: 90px;
+    background: rgb(242, 240, 236);
+    border: 2px solid rgb(186, 186, 183);
+    border-radius: 4px;
+}
+
+.main__twitter{
+    width: 90px;
+    padding: 5px 0 5px 12px;
+     background: rgb(242, 240, 236);
+    border: 2px solid rgb(186, 186, 183);
+    border-radius: 4px;
+}
+
+.main__input{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid rgba(140, 134, 134, 0.592);
+}
+
+.main__text{
+    padding: 0 40px 0 20px;
+}
+
+.main__location{
+    padding: 0 50px 0 24px;
+}
+
+.main__size{
+    padding: 0 45px 0 25px;
+}
+
+.main__card{
+    padding: 0 25px 0 25px;
+}
+
+button{
+    width: 140px;
+    height: 38px;
+    color: rgb(223, 227, 230);
+    background: rgb(238, 134, 96);
+    border-radius: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register{
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+.problems{
+    text-align: center;
+}
+
+.e-mail{
+    text-decoration: none;
+}

@@ -1,0 +1,97 @@
+* {
+  font-family: ;
+}
+
+.logo {
+  width: 244.58010864257812px;
+  height: 47.98px;
+  border-radius: 0px;
+  margin-left: 110.53px;
+  margin-top: 35.95px;
+  display: flex;
+}
+
+div {
+  margin-left: 110px;
+}
+.text {
+  line-height: 30px;
+  margin-left: 1171px;
+  font-size: 18px;
+  color: #181a3f;
+}
+.border {
+  margin-left: 27px;
+  margin-top: 50px;
+  width: 54px;
+  height: 3px;
+}
+.border-one {
+  margin-right: 110px;
+  width: 54px;
+  height: 3px;
+}
+
+.h1text {
+  font-size: 51px;
+  font-weight: 400;
+  margin-top: 286px;
+  margin-bottom: 13px;
+  line-height: 73px;
+}
+.lorem {
+  line-height: 30px;
+  color: #555671;
+}
+.button-one {
+  width: 255px;
+  height: 56px;
+  background: #ff7549;
+  margin-right: 28px;
+  margin-top: 57px;
+}
+.button-two {
+  width: 275px;
+  height: 56px;
+  border: 2px solid #181a3f;
+}
+
+.section {
+  display: flex;
+}
+
+.webflow {
+  margin-top: 121px;
+}
+
+.more {
+  display: flex;
+}
+.texth3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-top: 246px;
+  margin-left: 110px;
+}
+
+.all {
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 1.600000023841858px;
+  border: 2px solid black;
+  height: 54px;
+  width: 364px;
+  margin-left: 380px;
+  margin-top: 271px;
+  font-size: 20px;
+  color: #181a3f;
+}
+
+.brading div {
+  display: inline-block;
+  width: 25%;
+  margin-top: 29px;
+}

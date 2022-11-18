@@ -1,0 +1,45 @@
+*{
+   list-style: none; 
+   text-decoration: none;
+}
+
+.container{
+    min-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+header{
+    background: #0D0D2B;
+    height: 100vh;
+    }
+.navigation{
+justify-content: space-between;
+padding: 84px ;
+
+
+}
+.navigation__logo{
+
+}
+.logo{
+
+}
+.navigation__menu{
+gap: 48px;
+}
+
+.navigation__list a {
+color:white;
+ display: flex;
+gap: 32px;
+
+}
+.navigation__btn{
+width: 130px;
+height:52px ;
+background: #3671E9;
+border-radius: 32px;
+}

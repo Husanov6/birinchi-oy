@@ -1,0 +1,143 @@
+header {
+    background: var(--color-bg-header);
+    /* height: 100vh; */
+  }
+  .navigation {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0;
+  }
+  .navigation__menu {
+    gap: 123px;
+  }
+  .navigation__lists {
+    gap: 40px;
+  }
+  .navigation__lists li a {
+    color: var(--color-text-dark);
+    padding-bottom: 7px;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .navigation__lists li:hover a {
+    color: var(--color-text-hover);
+    border-bottom: 2px solid var(--color-text-hover);
+  }
+  
+  .banner {
+    margin-bottom: 121px;
+  }
+  
+  .banner__content {
+    width: 45%;
+  }
+  .banner__title {
+    color: var(--color-title-h1);
+    font-size: 45px;
+    line-height: 55px;
+    font-family: OpenSans-SemiBold;
+    margin-bottom: 16px;
+  }
+  .banner__subtitle {
+    color: var(--color-text-lightgray);
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 36px;
+  }
+  .banner__btns {
+    gap: 54px;
+  }
+  .banner__btns a img {
+    margin-bottom: -6px;
+  }
+  .banner__btns a span:last-child {
+    color: var(--color-title-h3);
+    letter-spacing: 0.02em;
+    line-height: 26px;
+  }
+  .banner__img {
+    width: 55%;
+  }
+  
+  .banner__img img {
+    /* width: 85.15%; */
+    width: 100%;
+  }
+  
+  .availability {
+    text-align: center;
+  }
+  .availability__title {
+    font-size: 45px;
+    line-height: 55px;
+    color: var(--color-title-h3);
+    font-weight: 400;
+  }
+  .availability__subtitle {
+    letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--color-text-gray);
+    width: 50%;
+    margin: 0 auto 46px;
+  }
+  
+  .availability__content {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 523px;
+  }
+  .availability__content div:first-child {
+    background-color: var(--color-bg-lightBlue);
+    width: 60%;
+    height: 100%;
+    align-items: flex-end;
+  }
+  
+  .availability__content div:first-child img {
+    width: 100%;
+  }
+  .availability__content div:last-child {
+    background-color: var(--color-bg-lightCadetblue);
+    width: 40%;
+    height: 100%;
+  }
+  
+  .availability__content div:last-child form {
+    flex-direction: column;
+    gap: 29px;
+    padding: 78px 68px;
+    text-align: start;
+  }
+  .availability__content div:last-child form label {
+    letter-spacing: 0.03em;
+    color: #222426;
+    font-size: 14px;
+  }
+  .availability__content div:last-child form input,
+  .availability__content div:last-child form select {
+    width: 339px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #ababab;
+    border-radius: 2px;
+  }
+  
+  .availability__content div:last-child form button {
+    background-color: transparent;
+    border: 1.5px solid #596b86;
+    border-radius: 2px;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    color: #222426;
+    width: 339px;
+    height: 50px;
+    transition: 0.2s;
+  }
+  .availability__content div:last-child form button:hover {
+    background-color: var(--color-text-dark);
+    color: var(--color-white);
+  }
+  

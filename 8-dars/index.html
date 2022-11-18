@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/variables.css" />
+    <link rel="stylesheet" href="../../assets/css/fonts.css" />
+    <link rel="stylesheet" href="../../assets/css/normalize.css" />
+    <link rel="stylesheet" href="../../assets/css/globalStyle.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navigation container flex">
+        <div class="navigation__logo">
+          <img src="../../assets/images/logo.png" alt="logo" />
+        </div>
+        <div class="navigation__menu flex">
+          <ul class="navigation__lists flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Branch</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+          <button class="navigation__btn btn-primary">Reservation</button>
+        </div>
+      </nav>
+      <section class="banner container flex">
+        <div class="banner__content">
+          <h1 class="banner__title">
+            Discover a hotel that defies a new dimension of luxury.
+          </h1>
+          <p class="banner__subtitle">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy.
+          </p>
+          <div class="banner__btns flex">
+            <button class="btn-primary">Get Started</button>
+            <a href="" class="flex">
+              <img src="../../assets/icons/video.svg" alt="video" />
+              <span>Watch video</span></a
+            >
+          </div>
+        </div>
+        <div class="banner__img">
+          <img src="../../assets/images/banner.png" alt="img" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="availability container">
+        <h3 class="availability__title">Check Availability</h3>
+        <p class="availability__subtitle">It is a long established fact that a reader will be distracted by the readable content of a page.</p>
+        <div class="availability__content flex">
+          <div class="flex"><img src="../../assets/images/availability.png" alt="hotel"></div>
+          <div>
+            <form  class="flex">
+
+              <!-- <fieldset>
+                <legend>asdasd</legend> -->
+                <label for="check-in">
+                  CHECK-IN:
+                  <input type="date">
+                </label>
+                <label for="check-out">
+                  CHECK-OUT:
+                  <input type="date">
+                </label>
+                <label for="guests">
+                  GUESTS:
+                  <select>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                  </select>
+                </label>
+                <button> CHECK AVAILABILITY </button>
+              <!-- </fieldset> -->
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

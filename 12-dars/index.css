@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+  }
+  /* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  } */
+  
+  .animation {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(234, 96, 255, 0.658);
+    border-radius: 50%; 
+     /*transition: width 1s cubic-bezier(0.32, 0.92, 0.58, -0.03) ; */
+    margin: 10px 0;
+    transition: 0.5s;
+  }
+  
+  .animation:nth-child(1) {
+    /* transition: width 2s ease; */
+  }
+  
+  .animation:nth-child(2) {
+    /* transition: width 2s linear; */
+  }
+  
+  .animation:nth-child(3) {
+    /* transition: width 2s ease-in; */
+  }
+  
+  .animation:nth-child(4) {
+    /* transition: width 2s ease-out; */
+  }
+  .animation:nth-child(5) {
+    /* transition: width 2s ease-in-out; */
+  }
+  
+  .animation:hover {
+   /*  border-radius: 5px;
+    background-color: rgba(106, 96, 255, 0.658); 
+   width: 700px; 
+     height: 900px;*/
+     width: 0px;
+     height: 0px;
+     border-left: 50px solid transparent;
+     border-right: 50px solid transparent;
+     border-bottom: 100px solid red;
+    transition: 0.5s;
+  
+   /* transform: translateX(-50px);*/ 
+   /*transform: translateY(50px); */
+     transform: translate(50px, 40px); 
+  
+    /* transform: rotateX(50deg);/*
+    /* transform: rotateY(50deg); */
+    /* transform: rotate(50deg); */
+  
+    /* transform: scaleX(30%); */
+     /* transform: scaleY(30%); 
+    /* transform: scale(2); */
+  
+    /* transform: skewX(50deg); */
+    /* transform: skewY(10deg); */
+    /* transform: skew(20deg); */
+  
+    /* transform: translate(20px, 10px) scale(1.5) rotate(20deg); */
+  
+    /* -moz-transform: scale(1.2) rotate(121deg) translate(8px, 1px) skew(3deg, 0deg);
+  -webkit-transform: scale(1.2) rotate(121deg) translate(8px, 1px) skew(3deg, 0deg);
+  -o-transform: scale(1.2) rotate(121deg) translate(8px, 1px) skew(3deg, 0deg);
+  -ms-transform: scale(1.2) rotate(121deg) translate(8px, 1px) skew(3deg, 0deg); */
+    /* transform: scale(1.2) rotate(121deg) translate(8px, 1px) skew(3deg, 0deg); */
+  }
+  

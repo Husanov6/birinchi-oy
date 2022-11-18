@@ -1,0 +1,50 @@
+.flex {
+    background-color: rgb(108, 243, 203);
+  
+    display: flex;
+  
+    /* height: 300px; */
+  
+    /* flex direction bizga  elementlarni yonalishini belgilashga kerak boladi */
+  
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+  
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+  
+    /* elementlarni X (gorizontal) - o'qi obyicha tekislab  beradi */
+  
+    /* justify-content: flex-start ; */
+    /* justify-content: flex-end ; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+  
+     /* birinchi qiyman rowga ikinchi columnga */
+    /* gap: 10px 20px; */
+    /* column-gap: 20px ; */
+    /* row-gap: 20px; */
+  
+  
+    /* elementlarni Y (vertikal) - o'qi obyicha tekislab  beradi */
+  
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: baseline; */
+  }
+  
+  .flex__box {
+    background-color: rgb(108, 180, 248);
+    width: 150px;
+    height: 150px;
+  }
+  
+  /* .flex__box:first-child {
+    margin-top: 100px;
+  }
+  .flex__box:last-child {
+    margin-top: 30px;
+  } */

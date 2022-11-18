@@ -1,0 +1,152 @@
+.flex {
+    border: 1px solid black;
+    display: flex;
+  
+    height: 300px;
+  
+    /* flex direction bizga  elementlarni yonalishini belgilashga kerak boladi */
+  
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+  
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+  
+    /* elementlarni X (gorizontal) - o'qi obyicha tekislab  beradi */
+  
+    /* justify-content: flex-start ; */
+    /* justify-content: flex-end ; */
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+  
+    /* birinchi qiyman rowga ikinchi columnga */
+    /* gap: 10px 20px; */
+    /* column-gap: 20px ; */
+    /* row-gap: 20px; */
+    gap: 20px;
+  
+    /* elementlarni Y (vertikal) - o'qi obyicha tekislab  beradi */
+  
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    /* align-items: baseline; */
+  
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+  }
+  
+  .flex__box {
+    border: 1px solid rgba(0, 0, 0, 0.128);
+    width: 150px;
+    height: 150px;
+  
+    /* box-shadow: 5px 5px 10px lightgrey; */
+    /* box-shadow: 
+    5px 5px lightgrey,
+     10px 10px yellow, 15px 15px red,
+      20px 20px green; */
+  }
+  /* .self{
+    align-self: center;
+  } */
+  
+  /* .flex__box:first-child{
+    align-self: flex-end;
+  }
+  
+  .flex__box:last-child{
+    align-self: flex-end;
+  
+  } */
+  
+  /* .flex__box:nth-child(2n){
+    align-self: flex-end;
+  } */
+  /* .flex__box:nth-child(2){
+    align-self: flex-end;
+  } */
+  
+  /* .flex__box:nth-last-child(2n){
+    align-self: flex-end;
+  } */
+  
+  /* span:first-of-type {
+    background-color: red;
+  }
+  span:last-of-type {
+    background-color: green;
+  } */
+  
+  /* span:nth-of-type(2n){
+    background-color: red;
+  } */
+  
+  /* p:only-of-type{
+    background-color: red;
+  } */
+  
+  /* a:not(#red){
+    background-color: red;
+  } */
+  
+  /* .selector > a {
+    background-color: red;
+  } */
+  
+  /* .selector ~ a {
+    background-color: red;
+  } */
+  
+  /* .selector + a {
+    background-color: red;
+  } */
+  
+  /* .selector.selector__p {
+    background-color: red;
+  } */
+  
+  /* [id]{
+    background-color: red;
+  } */
+  
+  /* [data-sanjar]{
+    background-color: red;
+  } */
+  
+  /* 
+  [data-sanjar="ism"]{
+    background-color: red;
+  } */
+  
+  /* [data-sanjar^="i"]{
+    background-color: red;
+  } */
+  
+  /* [data-sanjar$="i"]{
+    background-color: red;
+  } */
+  /* 
+  [data-sanjar*="i"]{
+    background-color: red;
+  } */
+  
+  /* .flex__box:hover {
+  
+    box-shadow: none;
+  } */
+  
+  /* .flex__box:active {
+    background-color: red;
+  } */
+  
+  .selector p:first-child {
+    font-size: 50px;
+    color: #FFFFFF;
+    background: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+  }
+  
